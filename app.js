@@ -32,7 +32,7 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-mongoose.connect('mongodb+srv://Bipul8765:USXgU4Q01wIs6vFh@cluster0.zbvcq.mongodb.net/test')
+mongoose.connect('mongodb+srv://Nishant231:USXgU4Q01wIs6vFh@cluster0.zbvcq.mongodb.net/test')
   .then(result => {
     User.findOne().then(user => {
       if (!user) {

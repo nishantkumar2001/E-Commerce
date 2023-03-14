@@ -38,7 +38,7 @@ mongoose.connect('mongodb+srv://Nishant231:USXgU4Q01wIs6vFh@cluster0.zbvcq.mongo
       if (!user) {
         const user = new User({
           name: 'Nishant',
-          email: 'nishant@test.com',
+          email: 'nishant@gmail.com',
           cart: {
             items: []
           }
